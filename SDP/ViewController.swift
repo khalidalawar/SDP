@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var password_textfield: UITextField!
+    @IBOutlet weak var username_textfield: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         print("push to github")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

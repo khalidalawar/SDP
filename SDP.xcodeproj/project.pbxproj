@@ -15,6 +15,7 @@
 		E9B6C6561C81DB4500F57DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B6C6541C81DB4500F57DE8 /* LaunchScreen.storyboard */; };
 		E9B6C6611C81DB4600F57DE8 /* SDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6C6601C81DB4600F57DE8 /* SDPTests.swift */; };
 		E9B6C66C1C81DB4600F57DE8 /* SDPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6C66B1C81DB4600F57DE8 /* SDPUITests.swift */; };
+		E9B6C67A1C81E1D700F57DE8 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6C6791C81E1D700F57DE8 /* Authentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E9B6C6671C81DB4600F57DE8 /* SDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B6C66B1C81DB4600F57DE8 /* SDPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDPUITests.swift; sourceTree = "<group>"; };
 		E9B6C66D1C81DB4600F57DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B6C6791C81E1D700F57DE8 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E9B6C6481C81DB4500F57DE8 /* AppDelegate.swift */,
 				E9B6C64A1C81DB4500F57DE8 /* ViewController.swift */,
 				E9B6C64C1C81DB4500F57DE8 /* Main.storyboard */,
+				E9B6C6791C81E1D700F57DE8 /* Authentication.swift */,
 				E9B6C6521C81DB4500F57DE8 /* Assets.xcassets */,
 				E9B6C6541C81DB4500F57DE8 /* LaunchScreen.storyboard */,
 				E9B6C6571C81DB4500F57DE8 /* Info.plist */,
@@ -262,6 +265,7 @@
 				E9B6C64B1C81DB4500F57DE8 /* ViewController.swift in Sources */,
 				E9B6C6491C81DB4500F57DE8 /* AppDelegate.swift in Sources */,
 				E9B6C6511C81DB4500F57DE8 /* SDP.xcdatamodeld in Sources */,
+				E9B6C67A1C81E1D700F57DE8 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
