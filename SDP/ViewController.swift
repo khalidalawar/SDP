@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fname_textfield: UITextField!
     @IBOutlet weak var lname_textfield: UITextField!
     @IBOutlet weak var email_textfield: UITextField!
+    @IBOutlet weak var phone_textfield: UITextField!
     
     
     
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print("push to github")
+     
         
         
     }
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
 
     @IBAction func create_user(sender: AnyObject) {
         
-        authentication.create_user_function(username_textfield.text!,fname: fname_textfield.text!, lname: lname_textfield.text!,email: email_textfield.text!,pass: password_textfield.text!);
+        authentication.create_user_function(username_textfield.text!,fname: fname_textfield.text!, lname: lname_textfield.text!,email: email_textfield.text!,phone: phone_textfield.text!, pass: password_textfield.text!);
 
     }
 }
