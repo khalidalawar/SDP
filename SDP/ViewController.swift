@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,UITextFieldDelegate{
     
     var authentication = Authentication();
 
@@ -19,14 +19,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var email_textfield: UITextField!
     @IBOutlet weak var phone_textfield: UITextField!
     
+    @IBOutlet weak var server_provider: UISwitch!
+    
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-     
-        
+        self.edgesForExtendedLayout = UIRectEdge.None
+
         
     }
 
@@ -37,7 +43,7 @@ class ViewController: UIViewController {
 
     @IBAction func create_user(sender: AnyObject) {
         
-        authentication.create_user_function(username_textfield.text!,fname: fname_textfield.text!, lname: lname_textfield.text!,email: email_textfield.text!,phone: phone_textfield.text!, pass: password_textfield.text!);
+        authentication.create_user_function(username_textfield.text!,fname: fname_textfield.text!, lname: lname_textfield.text!,email: email_textfield.text!,phone: phone_textfield.text!, pass: password_textfield.text!,server_provider: server_provider.on);
 
     }
 }
